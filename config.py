@@ -44,7 +44,7 @@ class Txt(object):
     
     ABOUT_TXT = f"""<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Anime_Madness">ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ</a>
 ❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/LUFFY1JOYBOY">ŦrαfͥαlͣgͫαrŁαw</a>
-❍ ɢɪᴛʜᴜʙ : <a href="https://github.com/Aizen895">ŦrαfͥαlͣgͫαrŁαw</a>
+❍ ᴜᴘᴅᴀᴛᴇs : <a href="https://t.me/Madness_Association">ᴍᴀᴅɴᴇss ᴀssᴏᴄɪᴀᴛɪᴏɴ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 ❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/Anime_Madness">ᴠᴘs</a>
