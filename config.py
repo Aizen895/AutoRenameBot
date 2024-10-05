@@ -16,8 +16,8 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6497757690').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/Be8.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7195990500').split()]
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'ongoing_madness,madness_association,anime_madness').split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002100963256"))
     
@@ -44,11 +44,11 @@ class Txt(object):
     
     ABOUT_TXT = f"""<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Anime_Madness">ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ</a>
 ❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/LUFFY1JOYBOY">ŦrαfͥαlͣgͫαrŁαw</a>
-❍ ɢɪᴛʜᴜʙ : <a href="https://github.com/LUFFY1JOYBOY">ŦrαfͥαlͣgͫαrŁαw</a>
+❍ ɢɪᴛʜᴜʙ : <a href="https://github.com/Aizen895">ŦrαfͥαlͣgͫαrŁαw</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 ❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/Anime_Madness">ᴠᴘs</a>
-❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/animes_madnesss">ᴀɴɪᴍᴇ ᴍᴀᴅɴᴇss</a>
+❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/animes_madness">ᴀɴɪᴍᴇ ᴍᴀᴅɴᴇss</a>
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>"""
 
