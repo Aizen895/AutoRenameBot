@@ -7,18 +7,18 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "28713982")
     API_HASH  = os.environ.get("API_HASH", "237e15f7c006b10b4fa7c46fee7a5377")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6110777488:AAEFIDFG2Fo6sCjY6ZnCheidfs6xSThXeaU") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7260559461:AAGrrGxkvOXMy6tQc_vg-JHLWctXYcAEz7c") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME","rename1")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://welexahyper:animehyper@cluster0.3ae54.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "25")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://envs.sh/Be8.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7195990500').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'ongoing_madness,madness_association,anime_madness').split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'anime_madness').split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002100963256"))
     
     # wes response configuration     
